@@ -1,0 +1,77 @@
+.container{
+  display : flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  
+}
+
+.card {
+  border-radius: 5%;
+  margin : 1% 1%;
+  width: 20%;
+  margin : 2%
+  
+}
+
+.card-title{
+  text-align: center;
+}
+
+/* .card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+} */
+
+.dropdown-toggle{
+  background-color: transparent;
+  border : none;
+  color : black
+}
+
+.dropdown-toggle :hover{
+  background-color: transparent;
+  border : none;
+  color : black
+}
+
+.navbar{
+  padding-left: 5%;
+}
+/* .card:hover .btn {
+  opacity: 1;
+} */
+.blackCard {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10% 0;
+}
+/* */
+.card-subtitle{
+  text-align: center;
+}
+
+.btn{
+  margin-top: 10%;
+  width: 60%;
+}
+.buttonAlign{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-sm{
+  width : fit-content
+}
+
+.cartCount{
+  border-radius: 50%;
+  border : 1px solid black;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 2px;
+}
